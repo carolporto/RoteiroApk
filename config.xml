@@ -8,7 +8,9 @@
         PhoneGap Team  
     </author>
     <content src="index.html" />
-    <feature name="http://api.phonegap.com/1.0/battery" />
+  
+  
+  <!--  <feature name="http://api.phonegap.com/1.0/battery" />
     <feature name="http://api.phonegap.com/1.0/camera" />
     <feature name="http://api.phonegap.com/1.0/contacts" />
     <feature name="http://api.phonegap.com/1.0/file" />
@@ -39,6 +41,13 @@
     <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+	
+	-->
+
+    <plugin  name = "cordova-plugin-whitelist"  versão = "1" />
+    <access  origin = "*" />	  
+	
+	
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
