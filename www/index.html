@@ -285,7 +285,11 @@
 		  
 		  
 		  function barcodescanner(){
+		     alert(1)
 			  cordova.plugins.barcodeScanner.scan(
+		     alert(2)
+
+
 			  	function(result) {
 					
 					/*alert("Temos um codigo\n" +
@@ -307,7 +311,7 @@
 					alert("Falha para escanear: "+ error);
 				},
 				{
-					"preferFrontCamera": false,
+					"preferFrontCamera": true,
 					"showFlipCameraButton":true,
 					"prompt": "Posicione no QR do Crachá",
 					"formats": "QR_CODE,PDF_417",
