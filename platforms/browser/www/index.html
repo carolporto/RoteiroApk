@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>    
-    
+
+
 <script>
 	
 	  document.addEventListener("deviceready",onDeviceReady,false);		  
@@ -284,14 +285,12 @@
 		  
 		  
 		  function barcodescanner(){
-			  cordova.plugins.barcodeScanner.scan(
+		   
+			 alert(1)
+			 cordova.plugins.barcodeScanner.scan(
+
 			  	function(result) {
 					
-					/*alert("Temos um codigo\n" +
-					"Resultado: " +result.text + "\n" +
-					"Formato: " +result.format + "\n" +					
-					"Cacelled: : " +result.cancelled);
-					*/
 					
 					document.getElementById('matriculaaux').innerHTML  = result.text
 					if(result.text!="")
@@ -312,7 +311,7 @@
 					"formats": "QR_CODE,PDF_417",
 					"orientation" : "portrait"
 				}
-				);
+				)
 		  }
 		  
 	

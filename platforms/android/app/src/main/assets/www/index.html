@@ -285,14 +285,12 @@
 		  
 		  
 		  function barcodescanner(){
-			  cordova.plugins.barcodeScanner.scan(
+		   
+			 alert(1)
+			 cordova.plugins.barcodeScanner.scan(
+
 			  	function(result) {
 					
-					/*alert("Temos um codigo\n" +
-					"Resultado: " +result.text + "\n" +
-					"Formato: " +result.format + "\n" +					
-					"Cacelled: : " +result.cancelled);
-					*/
 					
 					document.getElementById('matriculaaux').innerHTML  = result.text
 					if(result.text!="")
@@ -313,7 +311,7 @@
 					"formats": "QR_CODE,PDF_417",
 					"orientation" : "portrait"
 				}
-				);
+				)
 		  }
 		  
 	
