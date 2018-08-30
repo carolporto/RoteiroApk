@@ -18,11 +18,9 @@
 	<feature name="http://api.phonegap.com/1.0/network" />
 	<feature name="http://api.phonegap.com/1.0/notification" />
 
-	
+	<preference name="android-build-tool" value="gradle" />	
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-
-
 
     <plugin name="phonegap-plugin-barcodescanner" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
