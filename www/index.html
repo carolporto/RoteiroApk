@@ -23,6 +23,8 @@
         db.transaction(insereDadoP,erroDB,successoDB);
 
         db.transaction(insereDadoMotorista,erroDB,successoDB);
+		
+		 console.log(navigator.camera);		
 	 }
 
       function insereDado(tx)
@@ -287,7 +289,7 @@
 		  function barcodescanner(){
 		   
 			 alert(1)
-			 cordova.plugins.barcodeScanner(
+			 cordova.plugins.barcodeScanner.scan(
 
 			  	function(result) {
 					
@@ -558,7 +560,30 @@
 		} 
 	  }		  
 
-	 
+
+
+	  function CapturePhoto(){
+
+
+			navigator.camera.getPicture(onSuccess, onFail, { quality: 50, 
+				destinationType: Camera.DestinationType.DATAURL,
+				saveToPhotoAlbum: true
+				 }); 
+
+
+			function onSuccess(imageURI) {
+				var image = document.getElementById('minhaImagem');
+				image.style.display = "block"
+				image.src = "date.image/jpeg;base64," + imageData;;
+			}
+			
+			function onFail(message) {
+				alert('Failed because: ' + message);
+			}	  
+
+
+
+	}		 
     </script>
 	
 </head>
@@ -610,6 +635,10 @@
 <div id="matriculaaux" style="display:none;"></div> 
 <div id="nomepessoalAux" style="display:none;"></div> 
 
+<div id="deviceready" class="blink" >
+<p><button onClick="CapturePhoto()">Capturar Foto</button></p>
+<p><img style="display:none;width:250px;height:250px;" id="minhaImagem" src="" /></p>
+</div> 
 
   
 </body>
