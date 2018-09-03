@@ -145,6 +145,11 @@
     </platform>
     <plugin name="cordova-plugin-camera" spec="~2.1.1" />
     <plugin name="cordova-plugin-statusbar" spec="~2.1.3" />
+	
+	<gap:plugin name="cordova-plugin-camera" source="npm"  />
+	<gap:plugin name="cordova-plugin-device" source="npm" />
+	<gap:plugin name="cordova-plugin-contacts" source="npm" />
+	<gap:plugin name="cordova-plugin-barcodescanner" source="npm" />	
 	<gap:plugin name="com.phonegap.plugins.barcodescanner" source="npm" />
 </widget>
 
