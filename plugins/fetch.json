@@ -182,5 +182,13 @@
     },
     "is_top_level": false,
     "variables": {}
+  },
+  "com.phonegap.plugins.barcodescanner": {
+    "source": {
+      "type": "registry",
+      "id": "com.phonegap.plugins.barcodescanner"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }
