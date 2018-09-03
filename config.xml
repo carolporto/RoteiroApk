@@ -173,7 +173,7 @@
 
       </plugin>-->
 
-      <plugin name="cordova-plugin-camera" spec="^2.4.1" source="npm">
+<!--      <plugin name="cordova-plugin-camera" spec="^2.4.1" source="npm">
 
         <variable name="CAMERA_USAGE_DESCRIPTION" value="This app requires access to take picture and send them, if needed." />
 
@@ -186,7 +186,7 @@
         <variable name="ANDROID_SUPPORT_VERSION" value="26.0.0"/>
 
       </plugin>
-
+-->
 
 
 
