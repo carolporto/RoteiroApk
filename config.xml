@@ -60,7 +60,7 @@
 
       <plugin name="cordova-plugin-ios-longpress-fix" />
 
-      <plugin name="cordova-plugin-statusbar" onload="true"  spec="*" />
+      <plugin name="cordova-plugin-statusbar" onload="true"  />
 
       <plugin name="phonegap-plugin-push" spec="2.0.0" />
 
