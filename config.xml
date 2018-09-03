@@ -64,11 +64,6 @@
 
       <plugin name="phonegap-plugin-push" spec="2.0.0" />
 
-      <plugin spec="https://github.com/Telerik-Verified-Plugins/BarcodeScanner.git" source="git">
-
-        <param name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes." />
-
-      </plugin>
 
       <plugin name="cordova-plugin-camera" spec="^2.4.1" source="npm">
 
