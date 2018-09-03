@@ -22,6 +22,7 @@
 	
     <platform name="android"> <preference name="android-targetSdkVersion" value="22"/> </platform> 	
 	
+    <plugin name="com.phonegap.plugins.barcodescanner" spec="2.0.0" source="pgb" />  
     <preference name="android-build-tool" value="gradle" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
