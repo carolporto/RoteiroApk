@@ -162,7 +162,7 @@
   "phonegap-plugin-barcodescanner": {
     "source": {
       "type": "registry",
-      "id": "https://github.com/phonegap/phonegap-plugin-barcodescanner.git"
+      "id": "phonegap-plugin-barcodescanner@*"
     },
     "is_top_level": true,
     "variables": {}
