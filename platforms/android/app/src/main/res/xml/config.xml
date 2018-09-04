@@ -44,6 +44,9 @@
         PhoneGap Team  
     </author>
     <content src="index.html" />
+    <gap:plugin name="phonegap-plugin-barcodescanner" source="npm">
+        <param name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes." />
+    </gap:plugin>
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
