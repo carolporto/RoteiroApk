@@ -163,9 +163,8 @@
     <plugin name="cordova-plugin-camera" spec="~2.1.1" source="npm" />
     <plugin name="cordova-plugin-statusbar" spec="~2.1.3" source="npm" />
 	
-    <gap:platform name="android" />	
 	<gap:plugin name="com.phonegap.plugins.barcodescanner" source="npm" />
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />	
+
 </widget>
 
  
