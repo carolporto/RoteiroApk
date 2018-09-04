@@ -22,7 +22,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <gap:platform name="android" />
     <gap:plugin name="com.phonegap.plugins.barcodescanner" source="npm" />
     <preference name="pgb-builder-version" value="2" />
     <preference name="phonegap-version" value="cli-7.1.0" />
