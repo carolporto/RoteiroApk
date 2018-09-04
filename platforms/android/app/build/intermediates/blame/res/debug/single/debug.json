@@ -8,12 +8,12 @@
         "source": "C:\\Users\\cmporto_ez\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\a07c20b00f0f6864fadb9d351cb8cab6\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\cmporto_ez\\Documents\\Curso\\ApkRoteiro\\Roteiro\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldpi_capture.xml.flat",
-        "source": "C:\\Users\\cmporto_ez\\.gradle\\caches\\transforms-1\\files-1.1\\barcodescanner-release-2.1.5.aar\\a7609671d71ac69a1234f7177b2928a6\\res\\layout-ldpi\\capture.xml"
-    },
-    {
         "merged": "C:\\Users\\cmporto_ez\\Documents\\Curso\\ApkRoteiro\\Roteiro\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\cmporto_ez\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\89bdb96be4f33ba2597f9607c9551363\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cmporto_ez\\Documents\\Curso\\ApkRoteiro\\Roteiro\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldpi_capture.xml.flat",
+        "source": "C:\\Users\\cmporto_ez\\.gradle\\caches\\transforms-1\\files-1.1\\barcodescanner-release-2.1.5.aar\\a7609671d71ac69a1234f7177b2928a6\\res\\layout-ldpi\\capture.xml"
     },
     {
         "merged": "C:\\Users\\cmporto_ez\\Documents\\Curso\\ApkRoteiro\\Roteiro\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
